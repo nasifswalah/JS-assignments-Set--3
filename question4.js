@@ -1,3 +1,5 @@
+/*4.Define a function named sumOfSquares that takes a parameter n and calculates the sum of the squares of numbers from 1 to n using a loop.*/
+
 var readlineSync = require('readline-sync');
 
 function sumOfSquares(n){

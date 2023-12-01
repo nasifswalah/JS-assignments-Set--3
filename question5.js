@@ -1,8 +1,15 @@
+/*5. implement a function expression named printPattern that takes a parameter rows and prints a pattern of stars in the form of a right-angled triangle. For example, if the input is 5, the output should be:
+*
+**
+***
+****
+***** 
+*/
 var readlineSync = require('readline-sync');
 
 const printPattern = function(rows){
-    let star = "";
     for(let i = 1; i<=rows; i++){
+        let star = "";
         for(let j = 1; j<=i; j++){
             star += '*'
         }

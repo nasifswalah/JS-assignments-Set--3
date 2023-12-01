@@ -1,3 +1,5 @@
+/*3.Create a function expression named printEvenNumbers that takes a parameter n and prints all even numbers from 1 to n using a loop.*/
+
 var readlineSync = require('readline-sync');
 
 const printEvenNumbers = function(n){
